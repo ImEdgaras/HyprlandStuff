@@ -5,7 +5,7 @@ Arch Linux (btw), aur, fzf, stow
 
 Install (clone anywhere, then from the repo root):
 ```
-stow -t ~ bin
+stow -t ~ */
 ```
 All scripts in this repo are committed with the executable bit set, so they are runnable straight after cloning — no `chmod +x` needed.
 
