@@ -13,4 +13,8 @@ Scripts (inspired from Omarchy):
 - `pkg-install` — fuzzy-search the official Arch repos with fzf and install the selected packages via pacman
 - `pkg-aur-install` — same, but for the AUR via yay
 
-![pkg-install](metadata/pkg-install.gif)
+![pkg-install](.metadata/pkg-install.gif)
+
+Hyprland helpers (stowed to `~/Projects/wip/`, work-in-progress):
+- `focus_browser.lua` / `focus_browser.sh` — focus the browser window if open, otherwise launch `$BROWSER`; pair with a `workspace = 1` window rule in `hyprland.lua`
+- `toggle_eq.lua` / `toggle-eq.sh` — toggle EasyEffects bypass and notify which profile is active
